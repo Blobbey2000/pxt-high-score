@@ -1,6 +1,6 @@
 {
     "name": "pxt-high-score",
-    "version": "0.0.0",
+    "version": "0.5.0",
     "description": "",
     "dependencies": {
         "device": "*"
@@ -8,7 +8,8 @@
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "high.score.blocks.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -21,5 +22,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
